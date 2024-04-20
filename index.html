@@ -1,22 +1,129 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
     <!-- REPLACE THIS WITH YOUR PROJECT NAME. EXAMPLE - Category tabs -->
-    <title>Coding Assesment L2 boilerplate</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Sanidhya's solution to Coding Assesment L2</title>
+  </head>
 
-</head>
-
-<body>
+  <body>
     <!-- Your code goes here -->
     <div class="container">
-        <a href="https://github.com/mmdmrishabh/Coding-assessment-l2-Boilerplate-code/blob/main/Readme.md" target="_blank">Read how to work with boilerplate</a>
+      <div id="left">
+        <img
+          src="https://s3-alpha-sig.figma.com/img/d636/7d6d/f34ce14e7187edeeb026d73413e4a29c?Expires=1714348800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=pevkykb1BtmxffmPmXSPCM0bOk0JCmgEaRRcHlcJjm4q8P8Bd-ArvRMNuyj06dQnodNx59hkJ8oTv8bb-cCAy8zYe9ywUbVl4dm8aUKwc1t1S2obyyTpGaXhyhdZhBw1AbvX9WlMxizr8BODP-a0UTQeqX9973rKWyvS1doyUT14mvIInR4oQQu9aSa1KIOm8ictjYwLQcPV9S8zd5ZrDCf9rIX60g4jObuAOAVOYNKy3mJanyACwPVQFrvSo0ZmOvN6FJDbR~smIY1R2XhSzKySiaX47YP0ZyIAf8prioxp-1LAQSqa0zeV69BDek0L1SO8MuDhz8TxEC20ibbEwQ__"
+          id="main_img"
+        />
+        <div>
+          <div id="secondary_images_pics">
+            <img
+              src="assets/images/laura-chouette_1.png"
+              class="secondary_images"
+            />
+            <img
+              src="assets/images/laura-chouette_2.png"
+              class="secondary_images"
+            />
+            <img
+              src="assets/images/laura-chouette_3.png"
+              class="secondary_images"
+            />
+            <img
+              src="assets/images/laura-chouette_4.png"
+              class="secondary_images"
+            /><!--All these images are exported directly from figma and used here-->
+          </div>
+        </div>
+      </div>
+      <div id="right">
+        <p id="prod_vend">Marmeto</p>
+        <p id="prod_title">Embrace Slideboard</p>
+        <hr id="first_hr" class="lines" />
+        <div id="Frame_17_par">
+          <div id="Frame_17">
+            <p id="price">$12999.00</p>
+            <del>$19999.00</del>
+          </div>
+          <p id="disc_per"></p>
+        </div>
+        <hr class="lines" />
+        <div id="colors_div">
+          <p>Choose a color</p>
+          <div id="real_colors_flex">
+            <div id="Yel" class="real_colors_outer_div">
+              <div id="Yellow" class="actual_colors">
+                <img src = "assets/images/Vector (Stroke).png">
+              </div>
+            </div>
+            <div id="Grn" class="real_colors_outer_div">
+              <div id="Green" class="actual_colors"></div>
+            </div>
+            <div id="Blu" class="real_colors_outer_div">
+              <div id="Blue" class="actual_colors"></div>
+            </div>
+            <div id="Pnk" class="real_colors_outer_div">
+              <div id="Pink" class="actual_colors"></div>
+            </div>
+          </div>
+        </div>
+        <hr class="lines" />
+        <div id="sizes_root_div">
+          <p>Choose a Size</p>
+          <div id="size_flex">
+            <div id="small" class="size_sec">
+              <input type="radio" name="size_inp" />
+              <span>Small</span>
+            </div>
+            <div id="medium" class="size_sec">
+              <input type="radio" name="size_inp" />
+              <span>Medium</span>
+            </div>
+            <div id="large" class="size_sec">
+              <input type="radio" name="size_inp" />
+              <span>Large</span>
+            </div>
+            <div id="Extra_Large" class="size_sec">
+              <input type="radio" name="size_inp" />
+              <span>Extra Large</span>
+            </div>
+            <div id="XXL" class="size_sec">
+              <input type="radio" name="size_inp" />
+              <span>XXL</span>
+            </div>
+          </div>
+        </div>
+        <div id="buttons_div">
+          <div id="quant_button">
+            <span>-</span>
+            <span>1</span>
+            <span>+</span>
+          </div>
+          <button id="Add_to_cart">
+            <div id = "add_to_cart_cont">
+            <img src="assets/images/Cart_Icon.png" alt="img not found" />
+            <span>Add To Cart</span>
+          </div>
+          </button>
+        </div>
+        <div id = "purchase">
+          <p>Embrace Sideboard with Color Yellow and Size Small added to cart</p>
+        </div>
+        <hr class ="lines">
+        <div>
+          <p id = "description">The Embrace Sideboard is a stylish wear. With a top cloth designed to provide superior protection and look great, this storage solution is both functional and attractive. It fits seamlessly into any home decor, with clean lines and a timeless look. Crafted from premium materials for a combination of style, durability, and reliability.
+          </p>
+        </div>
+      </div>
     </div>
     <!-- Happy coding 😊 -->
     <script src="./script.js"></script>
-</body>
-
+  </body>
 </html>
