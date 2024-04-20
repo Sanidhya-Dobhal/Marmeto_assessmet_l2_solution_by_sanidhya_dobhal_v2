@@ -288,3 +288,51 @@ input[type ="radio"]{
   margin-left:23.5px;
   margin-right:14.5px;
 }
+@media screen and (max-width:1440px)
+{
+  body{
+    width:100vw;
+  }
+}
+@media screen and (max-width:1370px)
+{
+  #right,#first_hr{
+    width:42.4vw;
+  }
+  #right{
+    margin-left:8vw;
+  }
+  .container{
+    width:96.13vw;
+    margin-left:2.91vw;
+  }
+  #description{
+    width:40.7vw;
+  }
+}
+@media screen and (max-width:1340px)
+{
+  #main_img{
+    width:43.8vw;
+    height:51.5vw;
+  }
+  .secondary_images {
+    width:8.6vw;
+    height:auto;
+  }
+  #sizes_root_div{
+    overflow-x:scroll ;
+  }
+}
+@media screen and (max-width:1170px)
+{
+  #Add_to_cart{
+    width:26.5vw;
+  }
+  #quant_button{
+    width:14.5vw;
+  }
+  #buttons_div{
+    width:42.4vw;
+  }
+}
